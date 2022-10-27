@@ -12,6 +12,6 @@ scanners:
 - iac 
 - container
 dast: 
-url: http://k8s-default-dvwaalbi-40c6c993c8-36485006.us-east-1.elb.amazonaws.com:8081
+url: http://k8s-default-dvwaalbi-40c6c993c8-36485006.us-east-1.elb.amazonaws.com:8081/
 fortipentest_scanner: false #true|false 
 full_scan: true #true|false
