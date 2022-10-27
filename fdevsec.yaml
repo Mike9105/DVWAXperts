@@ -4,14 +4,15 @@ id:
   org: 333bc8b2-3431-475d-9b9b-46038ff2c2f8
   app: 37560584-83aa-418e-ba01-af2442512298
 
-scanners: 
-- sast 
-- dast 
-- secret 
-- sca 
-- iac 
-- container
-dast: 
-url: http://a167f45d7e74c4ed6af882c74862f8c8-1787964357.us-east-1.elb.amazonaws.com:8081
-fortipentest_scanner: false #true|false 
-full_scan: true #true|false
+scanners:
+  - sast
+  - dast
+  - secret
+  - sca
+  - iac
+  - container   
+    
+dast:
+  url: http://a167f45d7e74c4ed6af882c74862f8c8-1787964357.us-east-1.elb.amazonaws.com:8081/
+  fortipentest_scanner: false #true|false
+  full_scan: true #true|false
